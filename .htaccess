@@ -1,0 +1,19 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+#Redirects for Universe:
+Redirect 301 /tour https://www.universe.com/events/zac-browns-southern-ground-headquarters-tour-tickets-3WST59
+Redirect 301 /tours https://www.universe.com/events/zac-browns-southern-ground-headquarters-tour-tickets-3WST59
+
+#Redirect for Tailgate
+Redirect 301 /tailgate http://southernground.com/
