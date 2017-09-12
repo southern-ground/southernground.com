@@ -1,0 +1,8 @@
+
+# BEGIN WordPress
+
+# END WordPress
+AuthType Basic
+AuthName "southernground"
+AuthUserFile "/home/southerngrounds/.htpasswds/public_html/southernground/passwd"
+require valid-user
